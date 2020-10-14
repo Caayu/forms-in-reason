@@ -1,0 +1,28 @@
+{
+  "name": "forms",
+  "reason": {
+    "react-jsx": 3
+  },
+  "sources": {
+    "dir" : "src",
+    "subdirs" : true
+  },
+  "bsc-flags": ["-bs-super-errors", "-bs-no-version-header"],
+  "package-specs": [{
+    "module": "commonjs",
+    "in-source": true
+  }],
+  "suffix": ".bs.js",
+  "namespace": true,
+  "bs-dependencies": [
+    "reason-react",
+    "bs-reform",
+    "reschema",
+    "decco",
+    "reason-promise",
+    "bs-fetch",
+    "reason-react-update"
+  ],
+  "ppx-flags": ["lenses-ppx/ppx", "decco/ppx"],
+  "refmt": 3
+}
